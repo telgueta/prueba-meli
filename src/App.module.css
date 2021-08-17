@@ -1,0 +1,28 @@
+
+.appLogo {
+  height: 5vmin;
+  pointer-events: none;
+  padding: 12px;
+}
+
+.appHeader {
+  background-color: #eeeeee;
+  min-height: 100vh;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.appLink {
+  color: #61dafb;
+}
+
+.header {
+  background-color: #fff159;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

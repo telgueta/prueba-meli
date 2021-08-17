@@ -1,0 +1,19 @@
+
+.searchBar {
+  width: 50rem;
+  min-height: 2vh;
+  background: #F2F1F9;
+  border: none;
+  padding: 0.5rem;
+}
+
+.searchButton {
+  width: 6vh;
+  min-height: 4vh;
+  border: 1px solid #DFDFDF;
+  background: #DFDFDF;
+  text-align: center;
+  color: grey;
+  cursor: pointer;
+  font-size: 20px;
+}

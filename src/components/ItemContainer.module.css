@@ -1,0 +1,60 @@
+.itemContainer {
+  width: 100%;
+  margin-top: 16px;
+  border-bottom: 1px solid #DFDFDF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.img {
+  width: 300px;
+  height: 200px;
+  column-span: 1;
+  margin: 12px;
+}
+.price {
+  font-size: 20px;
+  color: black;
+}
+.priceContainer {
+  margin-top: 10%;
+}
+.freeShipping {
+  width: 24px;
+  margin-left: 4px;
+}
+.descriptionCol {
+  flex-direction: column;
+  margin-left: -24px;
+  margin-top: 24px;
+  column-span: 3;
+}
+.title {
+  font-size: 16px;
+  color: black;
+}
+.titleDiv {
+  margin-top: 5%;
+}
+.state {
+  font-size: 16px;
+  color: black;
+  margin-top: 15%;
+  margin-left: 30%;
+}
+.stateDiv {
+  margin-top: 54px;
+  margin-left: 80px;
+  column-span: 1;
+}
+
+.container {
+  background-color: white;
+  width: 1000px;
+}

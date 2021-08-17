@@ -1,0 +1,80 @@
+.itemContainer {
+  width: 100%;
+  border-bottom: 1px solid #DFDFDF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-count: 5;
+  margin-bottom: 5%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  padding: 32px;
+}
+.img {
+  width: 500px;
+  height: 600px;
+  padding: 40px;
+}
+.description {
+  margin-left: 26px;
+}
+
+.descriptionTitle {
+ font-size: 20px;
+ font-weight: 400;
+}
+.title {
+  font-size: 16px;
+  color: gray;
+}
+.titleDiv {
+  margin-top: 5%;
+}
+.condition {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+.state {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  margin-left: 30%;
+}
+.stateDiv {
+  margin-left: 80px;
+  column-span: 1;
+}
+.price {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.searchButton {
+  width: 24vh;
+  min-height: 4vh;
+  text-align: center;
+  background-color: #3381ff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 30%;
+  margin-top: 34px;
+  border: none;
+}
+.container {
+  background-color: white;
+  width: 1000px;
+}
